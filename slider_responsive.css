@@ -1,0 +1,123 @@
+/* Responsive for mobile */
+@media screen and (max-width: 768px) {
+  #slider {
+    width: 90%;
+    height: 100vw;
+  }
+
+  #slider label {
+    width: 100%;
+    padding: 20px;
+  }
+
+  #slider label img {
+    width: 100px;
+    height: 100px;
+  }
+
+  #slider label h2 {
+    font-size: 12px;
+  }
+
+  #slider label p {
+    font-size: 10px;
+  }
+
+  input[type="radio"] {
+    display: none;
+    visibility: hidden;
+  }
+
+  .audio {
+    padding: 5px;
+  }
+
+  .audio p {
+    font-size: 12px;
+  }
+
+  .audio h6 i {
+    margin-left: 5px;
+  }
+}
+
+/* Responsive for Ipad */
+@media screen and (max-width: 1024px) {
+  #slider {
+    width: 90%;
+    height: 50vw;
+  }
+
+  #slider label {
+    width: 90%;
+    padding: 20px;
+  }
+
+  #slider label img {
+    width: 100px;
+    height: 100px;
+  }
+
+  #slider label h2 {
+    font-size: 12px;
+  }
+
+  #slider label p {
+    font-size: 10px;
+  }
+
+  input[type="radio"] {
+    display: none;
+    visibility: hidden;
+  }
+
+  .audio {
+    padding: 5px;
+  }
+
+  .audio p {
+    font-size: 12px;
+  }
+
+  .audio h6 i {
+    margin-left: 5px;
+  }
+}
+
+/* Responsive for PC */
+@media screen and (min-width: 1025px) {
+  #slider {
+    width: 50%;
+    height: 32vw;
+  }
+
+  #slider label {
+    width: 450px;
+    padding: 30px;
+  }
+
+  #slider label img {
+    width: 150px;
+    height: 150px;
+  }
+
+  #slider label h2 {
+    font-size: 15px;
+  }
+
+  #slider label p {
+    font-size: 13px;
+  }
+
+  .audio {
+    padding: 10px;
+  }
+
+  .audio p {
+    font-size: 15px;
+  }
+
+  .audio h6 i {
+    margin-left: 10px;
+  }
+}
